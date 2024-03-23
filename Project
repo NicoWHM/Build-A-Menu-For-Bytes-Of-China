@@ -319,5 +319,4 @@ GROUP BY 1, 2 HAVING COUNT(dish_id) > 1 ORDER BY 3;
 -- [18]
 SELECT rating, description FROM review WHERE rating = (SELECT MAX(rating) FROM review);
 
--- To reset the cureent database uncomment the line below or copy/paste it in the command line
--- DROP TABLE address, category, dish, restaurant, review, categories_dishes;
+-- To reset the current database uncomment the line below or copy/paste it in the command line
